@@ -4,9 +4,9 @@
 This project involves the design and implementation of a **Band-Pass Filter** that allows signals within a specific frequency range to pass while attenuating frequencies outside this range. The circuit is designed using **active components** to achieve the desired filtering characteristics.
 
 ## Objectives
-- Design and simulate a band-pass filter for a specific frequency range.
-- Achieve precise filtering using **RC/RLC/Op-Amp based circuit**.
-- Implement a PCB layout to enhance circuit stability and reduce noise.
+- Design an active bandpass filter using operational amplifiers for high precision and performance.
+- Achieve a high Quality Factor (Q-Factor) to ensure a sharp frequency response.
+- Design a differential amplifier to be used in the bandpass filter for enhanced signal amplification, reduction of common-mode noise and improved performance in high-frequency applications.
 
 ### Results
 | Parameter                  | Value  |
@@ -19,8 +19,7 @@ This project involves the design and implementation of a **Band-Pass Filter** th
 ## Repository Structure
 Band-Pass-Filter  
 │── README.md  *(This file)*  
-│── Schematic Images
-│── Result Images
+│── Schematic and Result Images
 
 ## Future Improvements
 -  Implement the filter in a real-world circuit and compare experimental results with
